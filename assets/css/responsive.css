@@ -1,0 +1,310 @@
+@media screen and (max-width: 1200px) {
+    :root {
+        --color-black: #2A3342;
+        --color-black-hovered: #556987;
+        --color-green: #22C55E;
+        --color-white-text: #F0FDF4;
+        --color-white: #FFFFFF;
+        --size-heading: 60px;
+        --size-heading-small: 36px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header_inner_list {
+        position: fixed;
+        right: -250px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 250px;
+        background: var(--color-white-text);
+        height: 100vh;
+        padding: 40px;
+        top: 0;
+        z-index: 110;
+    }
+
+    .header_inner_list.opened {
+        right: 0;
+    }
+
+    .header_inner_item {
+        margin: 15px 0;
+    }
+
+    .sinab_korish,
+    .sotib_olish {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    :root {
+        --size-heading: 60px;
+        --size-heading-small: 36px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --size-heading: 50px;
+        --size-heading-small: 36px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+
+    .secondary_text br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    :root {
+        --size-heading: 55px;
+        --size-heading-small: 34px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+
+    .hero_item {
+        width: 100%;
+    }
+
+    .hero_item:nth-child(2) {
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .price_item {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --size-heading: 50px;
+        --size-heading-small: 32px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+
+    .secondary_item,
+    .contact_item {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    :root {
+        --size-heading: 50px;
+        --size-heading-small: 32px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+
+    .btn-up {
+        right: -50px;
+        bottom: 50px;
+    }
+
+    .btn-up.opened {
+        opacity: 1;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --size-heading: 50px;
+        --size-heading-small: 32px;
+        --size-text: 16px;
+        --size-text-big: 20px;
+        --size-text-large: 24px;
+        --size-text-small: 14px;
+    }
+
+    .header_links button {
+        display: none;
+    }
+
+    .sotib_olish,
+    .sotib_korish {
+        display: block;
+    }
+
+    .hero_lower_info {
+        margin-top: 20px;
+    }
+
+    .secondary_item,
+    .contact_item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    :root {
+        --size-heading: 45px;
+        --size-heading-small: 30px;
+        --size-text: 16px;
+        --size-text-big: 19px;
+        --size-text-large: 23px;
+        --size-text-small: 14px;
+    }
+
+    .hero_links button {
+        margin-left: 0 !important;
+        display: block !important;
+        text-align: center;
+    }
+
+    .hero_links button:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .hero {
+        padding-top: 140px;
+    }
+
+    .hero_companies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero_companies_item {
+        width: 33%;
+        margin: 0;
+    }
+
+    .price_item {
+        padding: 16px;
+    }
+
+    .price_body_item {
+        padding: 16px 0;
+    }
+
+    .contact_link {
+        display: inline-flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header_item img {
+        width: 7rem;
+    }
+
+    .form {
+        width: 90%;
+        padding: 14px 25.5px;
+        padding-top: 51px;
+    }
+
+    .closers {
+        right: 10px;
+        top: 10px;
+    }
+
+    .success,
+    .error {
+        width: 100%;
+    }
+
+    .success.opened,
+    .error.opened {
+        left: 0px;
+    }
+
+    .secondary,
+    .price {
+        padding-top: 85px;
+    }
+
+    .btn-up {
+        bottom: 20px;
+    }
+
+    .btn-up.scrolled {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .btn-up.opened {
+        opacity: 1;
+        right: 50px;
+    }
+
+    .btn-up {
+        right: -100px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    :root {
+        --size-heading: 40px;
+        --size-heading-small: 28px;
+        --size-text: 14px;
+        --size-text-big: 18px;
+        --size-text-large: 22px;
+        --size-text-small: 14px;
+    }
+
+    .hero_companies_item {
+        width: 50%;
+    }
+
+    .price_info_item h1::after {
+        top: -10px;
+        left: -20px;
+    }
+
+    .hero_links button {
+        width: 100%;
+    }
+
+    .btn-up.opened {
+        opacity: 1;
+        right: 10px;
+    }
+
+    .btn-up {
+        width: 50px;
+        height: 50px;
+        right: -100px;
+        bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    :root {
+        --size-heading: 30px;
+        --size-heading-small: 26px;
+        --size-text: 14px;
+        --size-text-big: 16px;
+        --size-text-large: 20px;
+        --size-text-small: 14px;
+    }
+}
